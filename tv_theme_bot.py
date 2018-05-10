@@ -33,5 +33,5 @@ while True:
 		# Tweet the song
 		api.update_status(theme + "\n#TVThemeMachine" + "\n" + "https://www.youtube.com/watch?v=" + search_results[0])
 
-		# End
-		time.sleep(3600)
+		# Rerun script every 24 hrs
+		time.sleep(86400)
